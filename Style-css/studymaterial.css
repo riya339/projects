@@ -1,0 +1,62 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+body{
+ 
+  background-image: url("https://previews.123rf.com/images/krekdm/krekdm1608/krekdm160800102/61579633-back-to-school-seamless-pattern-can-be-used-for-wallpaper-website-background-wrapping-paper-study-br.jpg");
+  height: 250%;
+  background-position: inherit;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+h3{
+background-color: transparent;
+padding: 10px 40px;
+margin: -10px -50px;
+text-align:left;
+color: rgb(8, 8, 8);
+font-size: 30px;
+/*text-shadow: 50px black;*/
+/*border-radius: 10px 10px 0 0;
+border-color: black;
+border-top: 5px
+box-sizing: border-box;*/
+
+font-family: 'Encode Sans', sans-serif;
+}
+div.container{
+position: relative;
+text-align: center;
+}
+h3{
+margin: 30px -30px;
+border: 0;
+border-top: 1px solid black;
+margin-bottom: 40px;
+text-shadow: ;
+text-align: center;
+}
+h4{
+margin: 60px -10px;
+padding: 10px;
+border: 0;
+/*border-top: 1px solid black;*/
+margin-bottom: 40px;
+color: white;
+font-family: 'Encode Sans', sans-serif;
+font-size: 20px;
+text-align: center;
+}
+input[type=text]{
+	text-align: left;
+
+}
+div.idk{
+	position: center;
+}
+
+button[type=submit]{
+	
+background: linear-gradient(#ffdd7f 5%, white 100%);
+border-radius: 7px;
+font-size: 20px;
+padding-top: 2px;
+padding-left: 5px;

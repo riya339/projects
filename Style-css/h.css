@@ -1,0 +1,48 @@
+
+.menu-area{
+    margin-top: 2px;
+}
+.menu-area ul{
+    background: transparent ;
+    list-style: none;
+    position: relative;
+}
+.menu-area ul li{
+    display: inline-block;
+
+}
+.menu-area ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+    padding: 1px 10px;
+
+}
+.menu-area ul li:hover{
+    background: transparent;
+}
+.menu-area ul li:hover > ul{
+    display: block;
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+
+}
+.menu-area ul ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    background:rgb(84, 68, 95);
+}
+
+.menu-area ul ul li{
+    position: relative;
+    display: block;
+    border-bottom:1px solid black;
+} 
+i
+{
+    margin-right:10px;
+}
+
+

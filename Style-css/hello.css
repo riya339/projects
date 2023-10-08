@@ -1,0 +1,96 @@
+
+/* Below line is used for online Google font */
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+body{
+    background-image: url("https://previews.123rf.com/images/peshkov/peshkov1907/peshkov190700546/127135322-creative-educational-sketch-on-white-background-with-copy-space-education-and-science-concept-3d-ren.jpg");
+}
+.msrcasclogo{
+    max-width: 60px;
+    display: flex;
+    position: absolute;
+    justify-content: left;
+    top: 0;
+    left: 0;
+
+}
+h2{
+background-color: #ec2d39;
+padding: 30px 35px;
+margin: -10px -50px;
+text-align:center;
+color: rgb(251, 244, 244);
+border-radius: 10px 10px 0 0;
+}
+hr{
+margin: 10px -50px;
+border: 0;
+border-top: 1px solid #033c3c;
+margin-bottom: 40px;
+}
+div.container{
+width: 900px;
+height: 610px;
+margin:100px auto;
+margin-left: 95px;
+font-family: 'Raleway', sans-serif;
+}
+div.main{
+width: 300px;
+padding: 10px 50px 25px;
+border: 2px solid rgb(75, 75, 75);
+border-radius: 10px;
+font-family: raleway;
+float:left;
+margin-top:50px;
+}
+input[type=text],input[type=password]{
+width: 100%;
+height: 40px;
+padding: 5px;
+margin-bottom: 25px;
+margin-top: 5px;
+background-color: rgb(238, 163, 163);
+border: 2px solid rgb(231, 109, 109);
+color: #4f4f4f;
+font-size: 16px;
+border-radius: 5px;
+}
+label{
+color: #343333;
+text-shadow: 0 1px 0 #fff;
+font-size: 14px;
+font-weight: bold;
+}
+center{
+font-size:32px;
+}
+.note{
+color:red;
+}
+.valid{
+color:green;
+}
+.back{
+text-decoration: none;
+border: 1px solid rgb(255, 0, 47);
+background-color: rgb(255, 0, 34);
+padding: 3px 20px;
+border-radius: 2px;
+color: rgb(153, 131, 131);
+}
+input[type=button]{
+font-size: 16px;
+
+background: linear-gradient(#ee1422 5%, #f46d4b 100%);
+border: 1px solid #e5002f;
+color: #f0ede7;
+font-weight: bold;
+cursor: pointer;
+width: 100%;
+border-radius: 5px;
+padding: 10px 0;
+outline:none;
+}
+input[type=button]:hover{
+background: linear-gradient(#fa3f64 5%, #ff1500 100%);
+}

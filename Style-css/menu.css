@@ -1,0 +1,54 @@
+
+.menu-area{
+    margin-top: 30px;
+}
+.menu-area ul{
+    background: transparent;
+    list-style: none;
+    position: relative;
+    text-transform: uppercase;
+}
+.menu-area ul li{
+    display: inline-block;
+
+}
+.menu-area ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+    padding: 10px 25px;
+    font-weight: bold;
+}
+.menu-area ul li:hover{
+    background: transparent;
+}
+.menu-area ul li:hover > ul{
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+}
+.menu-area ul ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    background:rgb(198, 231, 241);
+    visibility: .0;
+
+}
+.menu-area ul ul li{
+    position: relative;
+    display: block;
+    border-bottom:1px solid black;
+}
+.menu-area ul ul ul{
+    position: absolute; 
+    left: 100%;
+    top: 0;
+}
+ 
+i
+{
+    margin-right:10px;
+}
