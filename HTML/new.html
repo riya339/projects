@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>Javascript Login Form Validation</title>
+<!-- Include CSS File Here -->
+<link rel="stylesheet" href="hello.css"/>
+<!-- Include JS File Here -->
+<script>
+    var attempt = 3; // Variable to count number of attempts.
+// Below function Executes on click of login button.
+function validate(){
+var username = document.getElementById("username").value;
+var password = document.getElementById("password").value;
+if ( username == "admin" && password == "admin123"){
+alert ("Login successfully");
+window.location = "admin.php"; // Redirecting to other page.
+return false;
+}
+else{
+attempt --;// Decrementing by one.
+alert("You have left "+attempt+" attempt;");
+// Disabling fields after 3 attempts.
+if( attempt == 0){
+document.getElementById("username").disabled = true;
+document.getElementById("password").disabled = true;
+document.getElementById("submit").disabled = true;
+return false;
+}
+}
+}
+</script>
+</head>
+<body>
+    <div class="msrcasclogo">
+        <img src="logo1.png" style="align: centre" 
+        width="450"
+        height="75">
+<div class="container">
+<div class="main">
+<h2><center>Admin Login</center></h2>
+<form id="form_id" method="post" name="myform" style="text-align: center; ">
+<br/>
+<label>User Name :</label>
+<input type="text" name="username" id="username"/>
+<label>Password :</label>
+<input type="password" name="password" id="password"/>
+<input type="button" value="Login" id="submit" onclick="validate()"/>
+</form>
+</div>
+</div>
+</body>
+</html>

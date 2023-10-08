@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HTML</title>
+	<link rel="stylesheet" href="htm.css">
+    <link rel="stylesheet" href="h.css">
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".hamburger").click(function(){
+			   $(".wrapper").toggleClass("collapse");
+			});
+		});
+	</script>
+</head>
+<body>
+
+<div class="wrapper">
+  <div class="top_navbar">
+    <div class="hamburger">
+       <div class="one"></div>
+       <div class="two"></div>
+       <div class="three"></div>
+    </div>
+    <div class="top_menu">
+      <div class="logo">Value Added Courses</div>
+      <ul>
+        <li><a href="index.html">
+          <i class="fas fa-book-reader"></i></a></li>
+        <li><a href="index.html">
+          <i class="fas fa-home"></i>
+          </a></li>
+        <li><a href="trial.php">
+          <i class="fas fa-user"></i>
+          </a></li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="sidebar">
+      <ul>
+        <li><a href="#intro">
+          <span class="icon"><i class="fas fa-book"></i></span>
+          <span class="title">Introduction</span></a></li>
+          
+        <li><a href="#w1"><span class="icon"><i class="fas fa-user-graduate"></i></span>
+        <span class="title">Syllabus</span></a>
+          
+        <li><a href="trial.php"><span class="icon"><i class="fas fa-edit"></i></span>
+        <span class="title">Register</span></a>  
+
+        <li><a href="trial.php"><span class="icon"><i class="fas fa-user"></i></span>
+          <span class="title">Log in</span></a> 
+    </ul>
+  </div>
+  
+  <div class="main_container">
+    <div id="intro" class="header" ><h1>HTML</h1></div> 
+    
+    <div class="item">
+      <h3 style="font-size:30px;">Introduction</h3>
+      <br>
+      
+    HTML stands for Hyper Text Markup Language
+    HTML is the standard markup language for creating Web pages. It describes the structure of a Web page.
+    It consists of a series of elements tell the browser how to display the content.
+    HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.
+        
+</div>
+    <div class="Syllabus" id="w1" >
+    <h2 style="text-align: left;">Syllabus</h2>  
+    <br>
+    <h3 style="text-align: left;">Week 1:</h3>Introduction :History of HTML
+    What you need to do to get going and make your first HTML page
+    What are HTML Tags and Attributes?
+    HTML Tag vs. Element
+    HTML Attributes
+    HTML-Basic Formatting Tags
+    HTML Basic Tags
+    HTML Formatting Tags
+    HTML Color Coding
+    
+
+    </div>
+    <div class="Syllabus" id="w2">
+      <h3 style="text-align: left;">Week 2:</h3>HTML-Grouping Using Div Span :Div and Span Tags for Grouping
+      HTML-Lists: Unordered Lists, Ordered Lists and  Definition list
+      HTML-Images: Image and Image Mapping, HTML-Hyperlink URL - Uniform Resource Locator ,URL Encoding
+
+    </div>
+      <div class="Syllabus" id="w3">
+        <h3 style="text-align: left;">Week 3:</h3>Module 8: HTML-Table :table, th, td, tr, caption, thead, tbody, tfoot ,colgroup ,col 
+        HTML-Iframe: Using Iframe as the Target
+    
+        </div>
+        <div class="Syllabus" id="w4">
+          <h3 style="text-align: left;">Week 4:</h3>HTML-Form : input, textarea, button, select, label , HTML-Headers
+          Title
+          Base
+          Link
+          Styles
+          Script
+          Meta
+      
+          </div>
+          <div class="Syllabus" id="w5">
+            <h3 style="text-align: left;">Week 5:</h3>HTML-Miscellaneous
+           <ul>
+             <li>HTML Meta Tag</li>
+             <li> XHTML</li>
+             <li>HTML Deprecated Tags & Attributes</li>
+           </ul> 
+        
+            <br>
+            <a href="trial.php" class='btn1'>Register</a>
+            </div>   
+  
+</div>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS Videos</title>
+	<link rel="stylesheet" href="cssv.css">
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script language="javascript" type="text/javascript">
+        function preventBack()
+        {
+            window.history.forward();
+        }
+        setTimeout("preventBack()",0);
+        window.onunload = function(){null;}
+  </script>
+    <script>
+		$(document).ready(function(){
+			$(".hamburger").click(function(){
+			   $(".wrapper").toggleClass("collapse");
+			});
+		});
+	</script>
+</head>
+<body>
+
+<div class="wrapper">
+  <div class="top_navbar">
+    <div class="value">
+       <div class="one"></div>
+       <div class="two"></div>
+       <div class="three"></div>
+    </div>
+    <div class="top_menu">
+      <div class="logo">Value Added Courses</div>
+      <ul>
+        <li><a href="logout.php">
+          <i class="fas fa-sign-out-alt" title="Log out"></i>
+          </a></li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="sidebar">
+      <ul>
+        <li><a href="#intro">
+          <span class="icon"><i class="fas fa-video"></i></span>
+          <span class="title">Week 1</span></a></li>
+        <li><a href="#video">
+          <span class="icon"><i class="fas fa-video"></i></span>
+          <span class="title">Week 2</span>
+          </a></li>
+        <li><a href="#item">
+          <span class="icon"><i class="fas fa-video"></i></span>
+          <span class="title">Week 3</span>
+          </a></li>
+          <li><a href="https://www.msrcasc.edu.in/contact">
+            <span class="icon"><i class="fas fa-video"></i></span>
+            <span class="title">Week 4</span>
+            </a></li>
+            <div class="menu-area"> 
+                <ul>
+                 <li><a href="#"><span class="icon"><i class="fas fa-pen"></i></span>
+                 <span class="title">Test Link</span></a>
+                    
+              </div>
+            
+        
+    </ul>
+  </div>
+  
+  <div class="main_container">
+    <div class="header" id="intro"><h2>CSS</h2></div> 
+    <h1>Course Videos</h1>
+    <div class="item">
+      <h3>Week 1</h3>
+      <br>
+      <iframe width="400" height="335" src="https://player.vimeo.com/external/463002448.sd.mp4?s=df9a51e810e8e1035200cb071f237e6537704693&profile_id=139&oauth2_token_id=57447761">
+          </iframe>
+    </div>
+    <div class="item">
+      <h3>Week 2 </h3>
+      <br>
+    <iframe width="400" height="335" src="https://player.vimeo.com/external/463002448.sd.mp4?s=df9a51e810e8e1035200cb071f237e6537704693&profile_id=139&oauth2_token_id=57447761">
+          </iframe>
+        </div> 
+    <div class="item" id="item">
+      <h3>Week 3</h3>
+      <br>
+      <iframe width="400" height="335" src="https://player.vimeo.com/external/463002448.sd.mp4?s=df9a51e810e8e1035200cb071f237e6537704693&profile_id=139&oauth2_token_id=57447761">
+          </iframe>
+    </div>
+    <div class="item">
+      <h3>Week 4</h3>
+      <br>
+     <iframe width="400" height="335" src="https://player.vimeo.com/external/463002448.sd.mp4?s=df9a51e810e8e1035200cb071f237e6537704693&profile_id=139&oauth2_token_id=57447761">
+          </iframe>
+    </div>
+    <div class="item">
+     You have Successfully completed the Value Added Course. To test your efforts in learning something new...... 
+     Coming soon
+      <br>
+      <br>
+     <a href="#"  class="test">Give Test</a>
+    </div>
+  </div>
+</div>
+	
+</body>
+</html>

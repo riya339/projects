@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<scriptsrc="https://onlysharepoint2013.sharepoint.com/sites/Raju/tsinfo/SiteAssets/HtmlJsCssFiles/file.js"></script>
+<script>
+      functionGetSelectedTextValue(ddlSuggestion) 
+      {
+        varselectedValue = ddlSuggestion.value;
+        if(selectedValue=="2")
+        {
+        document.getElementById("txtComments").style.display = '';
+        }
+        else
+        {
+        document.getElementById("txtComments").style.display = 'none';
+        }
+     }
+</script>
+<body>
+<h1>Suggestion Box</h1>
+Choose an Option:   <select id="ddlSuggestion" onchange="GetSelectedTextValue(this)">
+<option value="0">Happy</option>
+<option value="1">Satisfied</option>
+<option value="2" >Sad</option>
+</select>
+</br>
+<input type="textarea" rows="4" cols="50" id="txtComments" style="display: none;" >
+</input>
+</body>
+</html>
